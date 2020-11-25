@@ -202,4 +202,16 @@ body {
   color: #e0e0e0;
 }
 
+@media screen and (min-width: 1200px) {
+  .slider-background {
+    background: url(../images/201120-670-sliderbackground.png) no-repeat center top;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    z-index: -1;
+    top: -180px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
