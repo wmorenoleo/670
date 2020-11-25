@@ -1,0 +1,87 @@
+//-------Colores---------
+$verde: #016d38 !default;
+$amarillo: #FFDC5D !default;
+$cont-amarillo: #716122 !default;
+$gris: #5F6060 !default;
+$grisClaro: #eaeaea !default;
+$blanco: #ffffff !default;
+//---------- Fuentes ---------
+$h1: 2.8rem !default;
+$h2: 1.5rem !default;
+$h3: 1.25rem !default;
+$text: 1.125rem !default;
+//---------- Font Weigth ------
+$light: 300 !default;
+$regular: 400 !default;
+$bold: 600 !default;
+
+.bfix {
+    border: 1px solid red;
+}
+// ------- Headers Sizes
+.h2 {
+    font-size: $h2;
+}
+
+.h3 {
+    font-size: $h3;
+}
+
+.bold {
+    font-weight: $bold;
+}
+
+.light {
+    font-weight: $light;
+}
+
+.regular {
+    font-weight: $regular;
+}
+
+.strong {
+    font-weight: $bold;
+}
+
+.text {
+    font-weight: $light;
+    font-size: $text;
+}
+// ------- Colores fuente
+.verde {
+    color: $verde;
+}
+
+.amarillo {
+    color: $amarillo;
+}
+
+.gris {
+    color: $gris;
+}
+
+.blanco {
+    color: $blanco;
+}
+
+// ------- Colores Background
+.bg-verde {
+    background-color: $verde;
+}
+
+.bg-amarillo {
+    background-color: $amarillo;
+}
+
+.bg-blanco {
+    background-color: $blanco;
+}
+
+.background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1.5rem;
+    p { 
+        margin: 0;
+    }
+}

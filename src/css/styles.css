@@ -1,0 +1,80 @@
+.bfix {
+  border: 1px solid red;
+}
+
+.h2 {
+  font-size: 1.5rem;
+}
+
+.h3 {
+  font-size: 1.25rem;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.strong {
+  font-weight: 600;
+}
+
+.text {
+  font-weight: 300;
+  font-size: 1.125rem;
+}
+
+.verde {
+  color: #016d38;
+}
+
+.amarillo {
+  color: #FFDC5D;
+}
+
+.gris {
+  color: #5F6060;
+}
+
+.blanco {
+  color: #ffffff;
+}
+
+.bg-verde {
+  background-color: #016d38;
+}
+
+.bg-amarillo {
+  background-color: #FFDC5D;
+}
+
+.bg-blanco {
+  background-color: #ffffff;
+}
+
+.background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1.5rem;
+}
+.background p {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
