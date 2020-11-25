@@ -27,6 +27,10 @@ $bold: 600 !default;
     font-size: $h3;
 }
 
+.small-text {
+    font-size: 15px;
+}
+
 .bold {
     font-weight: $bold;
 }
@@ -56,6 +60,10 @@ $bold: 600 !default;
     color: $amarillo;
 }
 
+.amarilloc {
+    color: $cont-amarillo;
+}
+
 .gris {
     color: $gris;
 }
@@ -75,6 +83,10 @@ $bold: 600 !default;
 
 .bg-blanco {
     background-color: $blanco;
+}
+
+.bg-grisc {
+    background-color: #f7f7f7;
 }
 
 .background {

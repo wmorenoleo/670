@@ -1,0 +1,23 @@
+.stars {
+    font-size: 20;
+    display: inline-block;
+}
+
+.stars a {
+    text-decoration: none;
+    display: inline-block;
+    /* Volver a dar tamaÃ±o al texto */
+    font-size: 32px;
+    font-size: 3rem;
+    color: #e0e0e0;
+}
+
+.stars:hover a {
+    color: #ffdc5d;
+}
+
+/* El selector de hijo, es necesario para aumentar la especifidad*/
+
+.stars > a:hover ~ a {
+    color: #e0e0e0;
+}
