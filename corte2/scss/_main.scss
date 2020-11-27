@@ -1,7 +1,6 @@
 html {
     scroll-behavior: smooth;
-    
-    }
+}
 
 body {
     font-family: "Roboto Condensed", sans-serif;
@@ -10,33 +9,39 @@ body {
     color: $gris;
     font-size: 18px;
     font-weight: $light;
+}
+
+.btn {
+    &:hover {
+        color: $amarillo;
+        text-decoration: none;
     }
+}
 
 .header--view {
     background-color: $blanco;
 }
 
 .header-logo {
-    
-    img{
+    img {
         width: 150px;
     }
 }
 
-.slider--view{
+.slider--view {
     padding-bottom: 1.5rem;
-    -webkit-box-shadow: 0px 10px 9px -9px rgba(0,0,0,0.4); 
-    box-shadow: 0px 10px 9px -9px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0px 10px 9px -9px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 9px -9px rgba(0, 0, 0, 0.4);
 }
 
 .slider-image {
-    img{
+    img {
         margin-top: 2rem;
     }
-    h1{
+    h1 {
         font-size: 60px;
     }
-    p{
+    p {
         margin-top: 2rem;
     }
 }
@@ -55,7 +60,7 @@ body {
     position: absolute;
     top: 120px;
     right: 6px;
-    img{
+    img {
         width: 13px;
     }
 }
@@ -66,36 +71,36 @@ body {
     width: 100%;
 }
 
-.header-lavado{
+.header-lavado {
     img {
         width: 70px;
     }
 }
 
 .servicio-item {
-    img{
+    img {
         width: 40px;
     }
 }
 
-.descuento-item{
-    img{
+.descuento-item {
+    img {
         width: 70px;
     }
 }
 
-.content-estrellas-vigilado{
+.content-estrellas-vigilado {
     position: absolute;
     transform: rotate(270deg);
     top: 90px;
     left: -50px;
-    img{
+    img {
         width: 160px;
     }
 }
 
 .footer {
-    img{
+    img {
         width: 135px;
     }
 }
@@ -107,5 +112,22 @@ body {
     font-style: italic;
     font-weight: bold;
     border-radius: 20px;
-    padding: .5rem 3rem;
+    padding: 0.5rem 3rem;
+}
+
+.mktoButtonWrap {
+    margin-left: 0px !important;
+}
+
+.mktoButton {
+    border: 1px solid #016d38;
+    background-color: #016d38;
+    color: #ffffff;
+    padding: 0.5rem 3rem !important;
+    border-radius: 20px;
+    font-family: "Roboto Condensed", sans-serif !important;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
 }

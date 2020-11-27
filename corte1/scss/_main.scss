@@ -12,6 +12,13 @@ body {
     font-weight: $light;
     }
 
+.btn{
+    &:hover{
+        color: $amarillo;
+        text-decoration: none;
+    }
+    }
+
 .header--view {
     background-color: $blanco;
 }
